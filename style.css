@@ -5,9 +5,11 @@ body {
 #h1 {
   text-align: center;
   color: white;
+  background-color: steelblue;
+  text-transform: uppercase;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: 0;
-  padding: 20px 0;
+  padding: 10px 0;
   transition: background-color 0.6s;
 }
 
@@ -36,15 +38,12 @@ body {
     background-color: white;
     height: 30px;
     text-align: center;
-    border-radius: 4px;
-}
-
-.selected {
-    background-color: tomato;
+    color: steelblue;
 }
 
 button{
     background-color: inherit;
+    color: steelblue;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
@@ -57,14 +56,10 @@ button{
     -moz-transition: all 0.3s;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  }
 
-  button:hover{
+  button:hover,
+  .selected {
     color: white;
-    background: yellowgreen
-  }
-
-  button.selected {
-    color: white;
-    background: tomato;
+    background: steelblue;
   }
 
   #message{
@@ -72,5 +67,5 @@ button{
     width: 15%;
     min-width: 170px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
+    color: steelblue;
   }
